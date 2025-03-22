@@ -1,0 +1,7 @@
+version: '3'
+services:
+  frontend:
+    build: todo-frontend
+    ports:
+      - "4200:80"
+    container_name: todo-frontend
